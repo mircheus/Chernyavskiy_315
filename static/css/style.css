@@ -1,0 +1,80 @@
+/* ****************************************************************************************************************************************************
+Чернявский Мирослав <mircheus@gmail.com> 
+  26/05/2016 04:00:00  
+style.css - сборник стилей, для корректного отображения главной страницы.
+Расположен в Chernyavskiy_M_A_315/static/css
+*****************************************************************************************************************************************************/
+.body_shape { width: 100%; }
+.body_shape TD { vertical-align: top; padding: 5px; }
+.col1 {
+	width: 150px; /* Ширина первой колонки */
+    background: #F0FFF0; /* Цвет фона первой колонки */
+    font-size: 20pt;
+}
+.col2 {
+	width: 1200px;
+	height: 400px;
+    background: #F0FFF0; /* Цвет фона второй колонки */
+}
+.col3 {
+    width: 150px; /* Ширина третьей колонки */
+    background: #F0FFF0; /* Цвет фона третьей колонки */
+}
+
+.Menu{
+	align: center;
+	text-align: center;
+	width: 100%;
+	background: #9ACD32;
+}
+
+h1{
+	text-align: center;
+	font-style: underline;
+	color: #F0FFF0;
+	font-size: 72px;
+	background-color: #006400; 
+}
+h2{
+	color: #F0FFF0;
+}
+p{
+	color: #000;
+}
+p.about{
+	color: #000;
+	text-align:center;
+	font-size: 20pt;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+td, tr{
+	border: 1px solid #000;
+}
+
+table.link td, table.link tr{
+	font-size: 32px;
+	text-align: center;
+	color: #000;
+	background: #AFEEEE;
+	border: 2px;
+}
+
+table.link2 td, table.link2 tr{
+	width: 70%;
+	background: #fff;
+	border: 1px solid #000;
+	color: #000;
+	padding-top: 15px 15px;
+	padding-right: 30px;
+}
+table.link3 td, table.link3 tr{
+	font-size: 32px;
+	color: #000;
+	background: #B0E0E6;
+	border: 2px;
+
+}
